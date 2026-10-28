@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahi Gupta - Computer Science Student &amp; Web Developer</title>
+  <meta name="description" content="Portfolio of Mahi Gupta, a second-year BTech Computer Science student learning web development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">MG<span class="brand-dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="avatar" aria-hidden="true">MG</div>
+        <p class="hero-hello">Hi, I'm</p>
+        <h1>Mahi Gupta</h1>
+        <p class="hero-role">Computer Science Student &amp; Aspiring Web Developer</p>
+        <p class="hero-sub">Second-year BTech CSE student based in Dehradun, India - learning to build clean, useful things for the web, one project at a time.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View my projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container narrow">
+        <h2 class="section-title">About Me</h2>
+        <p>I'm a second-year Bachelor of Technology student studying Computer Science and Engineering at my university in Dehradun. I'm still early in my journey, but I enjoy the process of learning how the web works and turning ideas into pages people can actually use.</p>
+        <p>Right now I'm focused on front-end fundamentals - HTML, CSS and JavaScript - and I build small, complete projects to practise what I learn. This portfolio itself is one of them, created as part of the Oasis Infobyte Web Development and Designing internship.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-sub">Tools I'm working with right now.</p>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><path d="M4 3h16l-1.5 17L12 22l-6.5-2L4 3z" fill="#e8632c"/><path d="M12 5.5v14l5-1.5L18.3 5.5H12z" fill="#f0824a"/><path d="M8 8h8l-.3 3H8.3L8 8zm.4 4.5h3l.2 2.5 1.4.4 1.4-.4.2-2h3l-.6 6-5.1 1.5L7.4 20l-.4-4.5h2.9l.2 2 1.9.5v-3.5H8.4z" fill="#fff"/></svg>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic markup, forms, accessibility basics</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><path d="M4 3h16l-1.5 17L12 22l-6.5-2L4 3z" fill="#2b6cb0"/><path d="M12 5.5v14l5-1.5L18.3 5.5H12z" fill="#4a9be0"/><path d="M8 8h8l-.3 3H8.3L8 8zm.4 4.5h6l-.3 3.5-2.1.6-2-.5-.1-1.6H7.4l.2 3.1 4.4 1.3 4.3-1.2.3-3.4H8.4z" fill="#fff"/></svg>
+            </div>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, responsive layouts, animations</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" fill="#f7df1e"/><path d="M9.5 16.8c.4.7.9 1.2 1.9 1.2.8 0 1.4-.4 1.4-1 0-.7-.6-1-1.5-1.3l-.5-.2c-1.5-.6-2.4-1.4-2.4-3 0-1.5 1.2-2.7 3-2.7 1.3 0 2.2.5 2.9 1.7l-1.6 1c-.3-.6-.7-.8-1.3-.8-.6 0-1 .4-1 .8 0 .6.4.8 1.3 1.2l.5.2c1.7.7 2.7 1.5 2.7 3.1 0 1.8-1.4 2.8-3.3 2.8-1.8 0-3-.9-3.6-2l1.6-1zm6.8.2c.3.5.6 1 1.4 1 .6 0 1-.2 1-.6 0-.4-.3-.6-.8-.8l-.3-.1c-.9-.4-1.5-.9-1.5-1.9 0-.9.7-1.6 1.9-1.6.8 0 1.4.3 1.8 1.1l-1 .6c-.2-.4-.4-.5-.8-.5-.4 0-.6.2-.6.5 0 .4.2.5.8.8l.3.1c1.1.5 1.7.9 1.7 2 0 1.1-.9 1.7-2 1.7-1.2 0-1.9-.6-2.3-1.3l1-.6z" fill="#1e2433"/></svg>
+            </div>
+            <h3>JavaScript</h3>
+            <p>DOM manipulation, events, form validation</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.4.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2z" fill="#1e2433"/></svg>
+            </div>
+            <h3>Git &amp; GitHub</h3>
+            <p>Version control and publishing project work</p>
+          </div>
+        </div>
+        <div class="learning-strip">
+          <p><strong>Currently learning:</strong> C++ and object-oriented programming through my university coursework.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-sub">A few things I've built while learning web development.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb thumb-tea" aria-hidden="true">
+              <span class="thumb-label">Landing Page</span>
+            </div>
+            <div class="project-body">
+              <h3>Vana Tea Co. - Landing Page</h3>
+              <p>A responsive marketing landing page for a fictional artisan tea brand, with a sticky navbar, hero section, product cards and pure-CSS illustration.</p>
+              <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>Responsive</span></div>
+              <a class="project-link" href="#" data-repo-link="landing">View on GitHub &rarr;</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb thumb-temp" aria-hidden="true">
+              <span class="thumb-label">Web App</span>
+            </div>
+            <div class="project-body">
+              <h3>TempShift - Temperature Converter</h3>
+              <p>An interactive converter between Celsius, Fahrenheit and Kelvin with input validation, absolute-zero handling and a clean card UI.</p>
+              <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+              <a class="project-link" href="#" data-repo-link="converter">View on GitHub &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container narrow center">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="contact-lead">I'm always happy to talk about web development, student projects, or internship opportunities.</p>
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:mg8562615@gmail.com">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#3d5a80" stroke-width="1.8"/><path d="m4 7 8 6 8-6" stroke="#3d5a80" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <span>mg8562615@gmail.com</span>
+          </a>
+          <a class="contact-card" href="#" data-github-profile>
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.4.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2z" fill="#3d5a80"/></svg>
+            <span data-github-profile-text>GitHub</span>
+          </a>
+          <div class="contact-card contact-card-static">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z" stroke="#3d5a80" stroke-width="1.8"/><circle cx="12" cy="10" r="2.5" stroke="#3d5a80" stroke-width="1.8"/></svg>
+            <span>Dehradun, Uttarakhand, India</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Mahi Gupta. Designed and built by me.</p>
+      <a href="#home" class="to-top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TempShift - Temperature Converter</title>
+  <meta name="description" content="Convert temperatures between Celsius, Fahrenheit and Kelvin instantly, with input validation and absolute-zero checks.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-labelledby="app-title">
+      <div class="card-head">
+        <div class="logo" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
+            <path d="M12 3a2 2 0 0 1 2 2v8.3a4.5 4.5 0 1 1-4 0V5a2 2 0 0 1 2-2z" stroke="#f6f8ff" stroke-width="1.8" stroke-linejoin="round"/>
+            <circle cx="12" cy="17.5" r="2" fill="#f6f8ff"/>
+          </svg>
+        </div>
+        <div>
+          <h1 id="app-title">TempShift</h1>
+          <p class="tagline">Convert between &deg;C, &deg;F and K - instantly.</p>
+        </div>
+      </div>
+
+      <form id="converter" novalidate>
+        <div class="field">
+          <label for="temp-input">Temperature value</label>
+          <input type="text" id="temp-input" inputmode="decimal" placeholder="e.g. 37.5" autocomplete="off" aria-describedby="error-msg">
+        </div>
+
+        <fieldset class="field">
+          <legend>From unit</legend>
+          <div class="unit-row" role="radiogroup" aria-label="Input unit">
+            <label class="unit-pill">
+              <input type="radio" name="from-unit" value="C" checked>
+              <span>Celsius (&deg;C)</span>
+            </label>
+            <label class="unit-pill">
+              <input type="radio" name="from-unit" value="F">
+              <span>Fahrenheit (&deg;F)</span>
+            </label>
+            <label class="unit-pill">
+              <input type="radio" name="from-unit" value="K">
+              <span>Kelvin (K)</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <p id="error-msg" class="error" role="alert" hidden></p>
+
+        <button type="submit" class="convert-btn">Convert</button>
+      </form>
+
+      <div class="results" id="results" aria-live="polite" hidden>
+        <h2>Results</h2>
+        <div class="result-grid">
+          <div class="result-box" id="box-C">
+            <p class="result-label">Celsius</p>
+            <p class="result-value"><span id="val-C">-</span><span class="result-unit">&deg;C</span></p>
+          </div>
+          <div class="result-box" id="box-F">
+            <p class="result-label">Fahrenheit</p>
+            <p class="result-value"><span id="val-F">-</span><span class="result-unit">&deg;F</span></p>
+          </div>
+          <div class="result-box" id="box-K">
+            <p class="result-label">Kelvin</p>
+            <p class="result-value"><span id="val-K">-</span><span class="result-unit">K</span></p>
+          </div>
+        </div>
+        <p class="result-note" id="result-note"></p>
+      </div>
+    </section>
+
+    <footer class="page-foot">
+      <p>Built with vanilla HTML, CSS &amp; JavaScript.</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
