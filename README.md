@@ -16,3 +16,8 @@ task submissions by **Mahi Gupta**.
 
 Each task folder contains the complete source code, a project README with
 setup instructions, and screenshots of the final result.
+
+## Links
+
+- GitHub profile: https://github.com/mahi-g29
+- Live demos (GitHub Pages): https://mahi-g29.github.io/OIBSIP/
