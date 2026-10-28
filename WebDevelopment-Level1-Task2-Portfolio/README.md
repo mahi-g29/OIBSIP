@@ -3,16 +3,18 @@
 **Track:** Web Development and Designing (Oasis Infobyte - OIBSIP)
 **Level 1, Task 2:** Personal Portfolio
 
-My personal portfolio website - a digital resume that presents who I am, the
-skills I am working with, the projects I have built and how to reach me.
+A personal portfolio website for Mahi Gupta - presents her student profile, the
+technologies used in the internship projects, the Level 1 task submissions and
+how to reach her. Created as Task 2 of the internship.
 
 ## Features
 
 - Profile hero section with name, role title and an initials avatar placeholder
 - About Me section with an honest introduction
-- Skills section as a visual card grid (HTML5, CSS3, JavaScript, Git & GitHub),
-  plus a "currently learning" strip for ongoing coursework
-- Projects section with cards linking to my other internship projects
+- Technologies section as a visual card grid (HTML5, CSS3, JavaScript,
+  Git & GitHub - the stack used in these projects), plus a "currently
+  learning" strip for her ongoing university coursework
+- Projects section with cards linking to the other internship task submissions
 - Contact section with email, GitHub and location cards
 - Sticky navbar with smooth-scroll navigation between sections
 - Consistent branding (Space Grotesk + Inter, indigo/navy palette) throughout

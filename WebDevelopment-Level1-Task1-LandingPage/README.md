@@ -14,7 +14,6 @@ site with semantic HTML and modern CSS - no JavaScript required.
 - Pure-CSS animated tea cup illustration (no image assets)
 - "Why Vana" feature section with three benefit cards
 - "The current harvest" product section with three tea cards and pricing
-- Testimonial section with three customer quotes
 - Call-to-action band and a footer with contact and social links
 - Consistent colour palette and typography (Fraunces + Inter) across all sections
 - Fully responsive layout (CSS Grid + Flexbox) - no element overlap at any width
