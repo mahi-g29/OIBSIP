@@ -42,3 +42,7 @@ python3 -m http.server 8000
 | Desktop | Mobile | Validation |
 | --- | --- | --- |
 | ![Desktop view](screenshots/desktop-view.png) | ![Mobile view](screenshots/mobile-view.png) | ![Validation error](screenshots/validation-error.png) |
+
+## Demo video
+
+See `demo.mp4` in this folder for a short screen-recorded walkthrough (title card + live demo).
